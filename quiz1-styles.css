@@ -42,53 +42,69 @@ main {
     width: 100vw;
 }
 
+#home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(var(--background-color-dark), var(--background-color));
+}
+
 #particles-js {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    right: 0px;
+    top: 0px;
 }
 
 #navbar {
     display: flex;
+    top: 0;
     justify-content: space-evenly;
     position: fixed;
     width: inherit;
-    height: 4em;
+    height: 5rem;
     z-index: 999;
     border: 0px solid black;
     background: linear-gradient(180deg, hsla(250deg, 0%, 0%, 100%), transparent);
     mix-blend-mode: normal;
 }
-
-#oportunitas-watermark {
-    text-align: center;
-    font-family: Montserrat;
-    font-weight: 800;
-    font-size: 1.25em;
-    color: hsla(30deg, 100%, 100%, 80%);
-}
   
 #navbar > a {
+    width: 50vh;
+    display: flex;
+    justify-content: center;
     font-family: Montserrat;
     font-weight: 600;
     font-size: 1.25em;
     color: var(--font-color-dark);
     text-decoration: none;
     margin-top: 0.95em;
+    border: 0px solid black;
+}
+
+#oportunitas-watermark {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 800 !important;
+    font-size: 1.25em;
+    color: hsla(30deg, 100%, 100%, 80%) !important;
 }
 
 #welcome-section {
+    justify-content: center;
+    align-items: center;
     color: var(--font-color);
-    height: inherit;
     overflow: hidden;
+    border: 0px solid black;
+    padding: 5em;
 }
 
 h1 {
     font-family: Montserrat;
-    font-size: 4em;
+    font-size: 5em;
     text-align: center;
-    margin: 2.25em 0 0 0;
+    margin: 1em 0 0 0;
 }
   
 h2 {
