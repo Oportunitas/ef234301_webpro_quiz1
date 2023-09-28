@@ -1,0 +1,212 @@
+@import url(
+    'https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap'
+);
+
+@import url(
+    'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Sawarabi+Gothic&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'
+);
+
+
+:root {
+    --navbar-width: 20vw;
+    --background-color: hsla(220deg, 95%, 10%, 100%);
+    --background-color-light: hsla(210deg, 70%, 30%, 100%);
+    --background-color-dark: hsla(220deg,40%, 5%, 100%);
+    --font-color-light: hsla(0deg, 0%, 100%, 90%);
+    --font-color-dark: hsla(0deg, 0%, 100%, 60%);
+    --font-color: hsla(0deg, 0%, 100%, 75%);
+}
+  
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Readex Pro", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: calc(max(min(2vw, 20px), 10px));
+    background-color: var(--background-color);
+}
+
+main {
+    width: 100vw;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    width: inherit;
+    height: 4em;
+    z-index: 999;
+    border: 0px solid black;
+    background: linear-gradient(180deg, hsla(250deg, 0%, 0%, 100%), transparent);
+    mix-blend-mode: normal;
+}
+
+#oportunitas-watermark {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 1.25em;
+    color: hsla(30deg, 100%, 100%, 80%);
+}
+  
+#navbar > a {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 1.25em;
+    color: var(--font-color-dark);
+    text-decoration: none;
+    margin-top: 0.95em;
+}
+
+#welcome-section {
+    color: var(--font-color);
+    height: inherit;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 4em;
+    text-align: center;
+    margin: 2.25em 0 0 0;
+}
+  
+h2 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+  
+h3 {
+    font-family: "Roboto Mono";
+    font-weight: 700;
+    font-size: 2.3em;
+    text-align: center;
+    margin: 1em 0 0 0;
+}
+
+#i-am-a {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+  
+#i-am-a * {
+    font-size: 1.35em;
+    margin: 0 0.10em 0 0.10em;
+}
+  
+#i-am-a > .title {
+    font-size: 2em;
+}
+  
+#i-am-a > p {
+    font-family: Montserrat;
+    font-weight: 300;
+}
+  
+#job-programmer {
+    font-family: "Roboto Mono";
+    font-weight: 500;
+    font-size: 1.08em;
+}
+  
+#job-cinematographer {
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 1.08em;
+}
+  
+#job-illustrator {
+    font-family: "Sawarabi Gothic";
+    font-weight: 500;
+    font-size: 1.05em;
+}
+  
+#job-content-creator {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 1.07em;
+}
+  
+#job-web-designer {
+    font-family: "Work Sans";
+    font-weight: 500;
+    font-size: 1.05em;
+    letter-spacing: 0.15em;
+}
+  
+#job-learner {
+    font-family: "Lexend";
+    font-weight: 400;
+    font-size: 1em;
+}
+  
+@keyframes slide-option-job-slide {
+    0% {
+      transform: translateY(calc(0%));
+    }
+    10% {
+      transform: translateY(calc(-19%));
+    }
+    20% {
+      transform: translateY(calc(-37%));
+    }
+    30% {
+      transform: translateY(calc(-54%));
+    }
+    40% {
+      transform: translateY(calc(-69.5%));
+    }
+    50% {
+      transform: translateY(calc(-85%));
+    }
+    60% {
+      transform: translateY(calc(-69.5%));
+    }
+    70% {
+      transform: translateY(calc(-54%));
+    }
+    80% {
+      transform: translateY(calc(-37%));
+    }
+    90% {
+      transform: translateY(calc(-19%));
+    }
+    100% {
+      transform: translateY(calc(0%));
+    }
+}
+  
+.job-slide {
+    animation-name: slide-option-job-slide;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+  
+.job-slide-frame {
+    overflow: hidden;
+    position: relative;
+    height: 2em;
+    transform: translateY(0px);
+}

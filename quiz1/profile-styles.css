@@ -1,0 +1,99 @@
+#about-me {
+    color: var(--font-color);
+    padding: 2em 5em 5em 5em;
+    background: linear-gradient(white 1%, var(--background-color-light) 1%, var(--background-color-dark));
+}
+  
+#about-me > header {
+    font-family: "Work Sans";
+    font-weight: 600;
+    text-align: center;
+    font-size: 3em;
+    color: var(--font-color-light);
+    margin-top: 1em;
+}
+  
+blockquote {
+    text-align: center;
+    margin-top: 2em;
+    font-family: Montserrat;
+}
+  
+.main-quote {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+  
+.quote-translation {
+    font-size: 1.25em;
+    font-style: italic;
+    margin-top: 0;
+}
+  
+.essay {
+    font-family: "Work Sans";
+    text-align: justify;
+    font-size: 1.25em;
+}
+  
+#projects {
+    padding: 0.4em 2em 2em 2em;
+    height: inherit;
+    background: linear-gradient(var(--background-color-dark), var(--background-color));
+}
+  
+#projects > header {
+    font-family: "Work Sans";
+    font-weight: 600;
+    text-align: center;
+    font-size: 3em;
+    color: var(--font-color-light);
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+  
+#projects > a {
+    font-family: "Work Sans";
+    font-weight: 500;
+    display: block;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--font-color-light);
+    margin-bottom: 1em;
+}
+  
+.website-project {
+    border: 5px solid white;
+    border-radius: 1em;
+    margin: 1em auto;
+    width: 80%;
+    height: 30em;
+    transition: width 0.75s, height 0.75s;
+    background-color: hsla(180deg, 70%, 30%, 50%);
+}
+  
+.project-title {
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+    margin: 0.5em;
+    color: var(--font-color);
+}
+  
+.codepen-embed {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: calc(100% - 5em);
+    width: calc(100% - 1.3em);
+    margin: 0 auto 1rem;
+    border-radius: 0.75em;
+}
+  
+.website-project:hover {
+    height: 80vh;
+    width: 80vw;
+}
