@@ -11,7 +11,8 @@
     --navbar-width: 20vw;
     --background-color: hsla(220deg, 95%, 10%, 100%);
     --background-color-light: hsla(210deg, 70%, 30%, 100%);
-    --background-color-dark: hsla(220deg,40%, 5%, 100%);
+    --background-color-medium: hsla(215deg, 55%, 15%, 100%);
+    --background-color-dark: hsla(220deg,50%, 1%, 100%);
     --font-color-light: hsla(0deg, 0%, 100%, 90%);
     --font-color-dark: hsla(0deg, 0%, 100%, 60%);
     --font-color: hsla(0deg, 0%, 100%, 75%);
@@ -34,7 +35,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    font-size: calc(max(min(2vw, 20px), 10px));
+    font-size: calc(max(min(2vw, 25px), 10px));
     background-color: var(--background-color);
 }
 

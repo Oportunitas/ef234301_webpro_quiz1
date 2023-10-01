@@ -1,0 +1,108 @@
+#about-me {
+    display: flex;
+    flex-direction: column;
+    color: var(--font-color);
+    background: linear-gradient(hsla(355deg, 55%, 15%, 100%) 1%, var(--background-color-dark));
+    padding: 2em 5em 5em 5em;
+}
+  
+#about-me > header {
+    font-family: "Work Sans";
+    font-weight: 600;
+    text-align: center;
+    font-size: 3em;
+    color: var(--font-color-light);
+    margin-top: 1.5em;
+}
+
+.list-block {
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.5em;
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(0.5em);
+    box-shadow: 0 0 2em 0em rgba(255, 255, 255, 0.6);
+    border-radius: 5em;
+    border: 0em solid white;
+    transition: background-color 0.2s, box-shadow 0.2s;
+    margin-bottom: 4em;
+}
+
+.list-block:hover {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 3em 0em rgba(255, 255, 255, 0.9);
+}
+
+.list-block-image {
+    width: 8em;
+    height: 8em;
+    object-fit: fill;
+    overflow: hidden;
+    border-radius: 4em;
+    border: 0.18em solid white;
+    transition: width 0.6s, height 0.4s;
+    box-shadow: 0 0 2em 0em rgba(255, 255, 255, 0.6);
+    z-index: 10;
+}
+
+.list-block-image:hover {
+    width: 20em;
+    height: 20em;
+}
+
+.list-block-image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.list-block-text {
+    flex: 1;
+    margin-left: 2em;
+}
+
+.list-block-text-description {
+    text-align: justify;
+}
+
+img {
+    width: inherit;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin: 0;
+}
+
+blockquote {
+    text-align: center;
+    font-family: Montserrat;
+}
+  
+.main-quote {
+    font-size: 2em;
+    margin-bottom: 0;
+    border: 0px solid black;
+}
+  
+.quote-translation {
+    font-size: 1.25em;
+    font-style: italic;
+    margin-top: 0;
+}
+  
+.essay {
+    font-family: "Work Sans";
+    text-align: justify;
+    font-size: 1.25em;
+    margin-top: 0.2em;
+}
