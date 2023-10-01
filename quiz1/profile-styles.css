@@ -1,4 +1,6 @@
 #about-me {
+    display: flex;
+    flex-direction: column;
     color: var(--font-color);
     padding: 2em 5em 5em 5em;
     background: linear-gradient(white 1%, var(--background-color-light) 1%, var(--background-color-dark));
@@ -12,16 +14,66 @@
     color: var(--font-color-light);
     margin-top: 1em;
 }
-  
+
+#profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(0.5em);
+    box-shadow: 0 0 3em 0em rgba(255, 255, 255, 0.6);
+    border-radius: 3em;
+    border: 0.1em solid white;
+    z-index: 0;
+}
+
+#profile-picture {
+    height: 10em;
+    width: 10em;
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 10em;
+    overflow: hidden;
+    z-index: 10;
+}
+
+img {
+    width: inherit;
+}
+
+#profile-details {
+    flex: 1;
+    flex-direction: column;
+    margin: 2em;
+    margin-left: 0em;
+    border: 1px solid black;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin: 0;
+}
+
 blockquote {
     text-align: center;
-    margin-top: 2em;
     font-family: Montserrat;
 }
   
 .main-quote {
     font-size: 2em;
     margin-bottom: 0;
+    border: 0px solid black;
 }
   
 .quote-translation {
