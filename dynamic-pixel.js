@@ -2,12 +2,12 @@ function getDynamicPixelSize() {
     var pxViewHeight = window.innerHeight;
     var pxViewWidth = window.innerWidth;
 
-    var scale = Math.min((pxViewHeight / pxViewWidth), (pxViewWidth / pxViewHeight));
+    var scale = Math.min(0.77778, Math.min((pxViewHeight / pxViewWidth), (pxViewWidth / pxViewHeight)));
 
     var unit = (pxViewHeight / 10) * (pxViewWidth / 10);
-    unit /= ((pxViewHeight + pxViewWidth) / 9);
+    unit /= ((pxViewHeight + pxViewWidth) / 6);
 
-    var dynamicPixelSize = Math.max(8, (unit * scale));
+    var dynamicPixelSize = unit * scale;
 
     console.log(scale);
     console.log(pxViewHeight / pxViewWidth);
