@@ -1,3 +1,10 @@
+#food-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 #about-me {
     display: flex;
     flex-direction: column;
