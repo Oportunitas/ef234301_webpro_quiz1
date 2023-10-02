@@ -12,6 +12,8 @@ One of them is a custom-made `dynamic pixel` made by me that uses the `em` attri
 Aside from that, I also use several CSS properties that may seem uncommon, such as `box-shadow` to create the outer glow of some the elements, `transition` to create a smooth animation for some divs, and `@media` to change the layout of some elements entirely when given a condition.
 
 ### JavaScript
+The algorithm for `dynamic pixel` is built in JavaScript. It can be accessed in `dynamic-pixel.js`. It considers the size of the screen, as well as their aspect ratio, to create the best pixel size for each type of display
+
 This website uses JavaScript to display the network background on every page, by using VincentGarreau's `particle.js` package.
 ## Packages
 This website uses `particles.js` to display the network background present on all of the pages.
