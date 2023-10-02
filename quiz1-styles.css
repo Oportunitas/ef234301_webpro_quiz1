@@ -35,7 +35,6 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    font-size: calc(max(min(2vw, 25px), 10px));
     background-color: var(--background-color);
 }
 
