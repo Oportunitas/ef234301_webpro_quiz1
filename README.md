@@ -3,7 +3,7 @@
 
 ## Summary
 ### HTML
-This website is built using a modern HTML syntax, using elements such as `<section>`, `<header> <main> <footer>`, and various `<meta>` elements to create a neater layout that adheres to the Search Engine Optimization guidelines.
+This website is built using a modern HTML syntax, using elements such as `<section>`, `<blockquote>`, `<header> <main> <footer>`, and various `<meta>` elements to create a neater layout that adheres to the Search Engine Optimization guidelines.
 ### CSS
 The CSS stylesheet of this website uses several unique features.
 
